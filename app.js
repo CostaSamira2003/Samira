@@ -28,11 +28,17 @@ app.get('/professores', (req, res) => {
     res.json(bd.getProfessores());
 });
 
+
 app.listen(3000, () => console.log('Servidor online na porta 3000'));
 
 // GET /alunos -> retornar uma lista de alunos
 // POST /alunos -> adicionar um aluno à lista.
 
-//const idaAluno = req.params.id;
+//const idAluno = req.params.id;
 
 //getAlunoPorId (id) {};
+
+// GET /professores -> retornar uma lista de professores
+// POST /professores -> adicionar um professor à lista
+
+//const idProfessor = req.params.id;

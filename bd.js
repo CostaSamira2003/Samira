@@ -1,4 +1,5 @@
 class BancoDeDados {
+    
     constructor() {
         this.alunos = [];
         this.professores = [];
@@ -7,6 +8,8 @@ class BancoDeDados {
     getAlunos() {
         return this.alunos;
     }
+
+    getAlunosPorId()
 
 
     addAlunos(aluno) {
